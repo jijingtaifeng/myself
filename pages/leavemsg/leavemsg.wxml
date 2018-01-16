@@ -1,0 +1,20 @@
+<view class='container container-all'>
+
+  <view class='msg-header'>留言</view>
+  <view class='msg-box'>
+    <block wx:for="{{msgInfo}}">
+      <view  data-id='{{index}}' class="{{item.status?'msg-itemed':'msg-item'}}" bindtap='onSelectedMsg'> 
+        {{item.name}}
+      </view>
+    </block>
+    <view></view>
+  </view>
+  <view class='span'></view>
+  <view class='msg-header'>其他备注</view>
+  <textarea class='remark-info' placeholder='选填，对本次废品回收的备注信~' name="otherMark">
+  </textarea>
+
+  <view class='bottom-box'>
+    <view class='bt-confirmed' bindtap='onConfirmed' >确定</view>
+  </view>
+</view>

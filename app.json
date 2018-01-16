@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/classify/classify",
+    "pages/placeorder/placeorder",
+    "pages/leavemsg/leavemsg",
+    "pages/selectrecycler/selectrecycler",
+    "pages/orderinfo/orderinfo",
+    "pages/order/order",
+    "pages/mywallet/mywallet",
+    "pages/mywallet/moneydetail/moneydetail",
+    "pages/address/addresslist/addresslist",
+    "pages/address/newaddress/newaddress",
+    "pages/phone/bindphone/bindphone",
+    "pages/order/cancelorder/cancelorder",
+    "pages/order/orderdetail/orderdetail"
+  ],
+  "window": {
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "#FFFFFF",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "imgs/toolbar/home.png",
+        "selectedIconPath": "imgs/toolbar/home@selected.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "imgs/toolbar/my.png",
+        "selectedIconPath": "imgs/toolbar/my@selected.png",
+        "text": "我的"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "selectedColor": "#AB956D",
+    "color": "#989898",
+    "borderStyle": "white",
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "debug": true
+}

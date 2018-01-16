@@ -1,0 +1,43 @@
+<view class='container container-all'>
+
+  <view class='out-money-box'>
+    <view class='money-box'>
+
+      <view class='money'>132.44</view>
+      <view class='curr-money'>当前总金额</view>
+    </view>
+  </view>
+  <view class='money-detail-box'>
+
+    <view>
+      <view class='com-money'>56.21</view>
+      <view class='curr-money'>已提现金额</view>
+    </view>
+    <view>
+      <view class='com-money'>56.21</view>
+      <view class='curr-money'>已入账金额</view>
+    </view>
+
+
+  </view>
+  <view class="list-box">
+    <navigator class="caption" url="../mywallet/moneydetail/moneydetail" open-type="navigate" hover-class="none">
+      <view class="item">
+        <text class="itemicon iconfont icon-guanyuwomen"></text>
+        <view class="ft">已提现明细</view>
+      </view>
+    </navigator>
+    <navigator class="caption" url="../mywallet/moneydetail/moneydetail" open-type="navigate" hover-class="none">
+      <view class="item">
+        <text class="itemicon iconfont icon-guanyuwomen"></text>
+        <view class="ft">已入账明细</view>
+      </view>
+    </navigator>
+    <navigator class="caption" url="" open-type="navigate" hover-class="none">
+      <view class="item">
+        <text class="itemicon iconfont icon-guanyuwomen"></text>
+        <view class="ft">钱包常见问题</view>
+      </view>
+    </navigator>
+  </view>
+</view>

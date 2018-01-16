@@ -1,0 +1,6 @@
+<view class="container">
+
+  <textarea class='remark-info' placeholder='请输入您取消订单的原因' name="otherMark" bindinput="bindInputBlur">
+  </textarea>
+  <view class="{{btStatus?'bt-confirmed':'bt-confirme'}}" bindtap='onConfirmed'>提交</view>
+</view>

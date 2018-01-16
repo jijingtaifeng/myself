@@ -1,0 +1,18 @@
+<view class='container container-all'>
+
+  <view class='money-box'>
+    <view class='money'>132.44</view>
+    <view class='curr-money'>已提现总金额</view>
+  </view>
+  <view class='span'></view>
+
+
+  <view class='item-box'>
+    <view class='tx-box'>
+       <view class='tx-to-wx'>提现至微信零钱</view>
+       <view class='tx-time'>预计1-3个工作日内到账</view>
+    </view>
+     <text class='opr-status'>处理中</text>
+     <text class='money-index'>50.00</text>
+  </view>
+</view>

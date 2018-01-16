@@ -1,0 +1,10 @@
+<view class='container container-all'>
+<view class='classify-box'>
+  <block wx:for="{{leftData}}">
+    <view class='classify-item' bindtap='onOrderItem' data-id="{{item.id}}" data-name="{{item.title}}">
+    <image class='image'src='{{item.imgurl}}'></image>
+    <view class='text'>{{item.title}}</view>
+    </view>
+  </block>
+</view>
+</view>

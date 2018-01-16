@@ -1,0 +1,80 @@
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.container-all {
+  background-color: #f5f5f5;
+}
+
+.addAddress-edit-wrap {
+  background-color: #fff;
+}
+
+.dialog-block-item {
+
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid #e8e8e8;
+  margin-left: 30rpx;
+  font-size: 32rpx;
+}
+
+.item-label {
+  width: 20%;
+  color: #666;
+  line-height: 100rpx;
+}
+
+.addAddress-edit-input {
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #333;
+  width: 540rpx;
+}
+
+.addAddress-bottom-opt {
+  padding: 30px 20px;
+}
+
+.addAddress-edit-input1 {
+  height: 100px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.dialog-block-item2 {
+  /* //display: flex; */
+  display: none;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.item-label2 {
+  font-size: 14px;
+  color: black;
+  padding: 0 10px;
+  line-height: 50px;
+}
+
+.selected {
+  padding: 10px;
+}
+
+.btn-block {
+  color: #fff;
+  font-size: 36rpx;
+  background-color: #ccc;
+}
+
+.location {
+  position: absolute;
+  right: 0;
+  width: 60rpx;
+  height: 60rpx;
+  padding: 20rpx;
+  z-index: 100;
+}

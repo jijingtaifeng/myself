@@ -1,0 +1,36 @@
+<!-- 自定义toast组件 -->
+
+<template name="toast">
+  <view class="toast_content_box" wx:if="{{ isHide }}">
+    <view class="toast_content">
+      <view class="toast_content_text">
+        {{content}}
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="singleDialog">
+  <view class="dialog_content_box" wx:if="{{ isHide }}">
+    <view class="dialog_content">
+      <view class="dialog_content_text">
+        {{content}}
+      </view>
+      <view bindtap='closeDialog' class='bt-confirmed'>确定</view>
+    </view>
+  </view>
+</template>
+
+<template name="doubleDialog">
+  <view class="dialog_content_box" wx:if="{{ isHide }}">
+    <view class="dialog_content">
+      <view class="dialog_content_text">
+        {{content}}
+      </view>
+      <view class='bottom-box'>
+      <view bindtap='closeDialog' class='bt-confirme bt-confirmed'>取消</view>
+      <view bindtap='confirmDialog' class='bt-confirmed'>{{confirmtext}}</view>
+      </view>
+    </view>
+  </view>
+</template>

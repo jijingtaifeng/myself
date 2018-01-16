@@ -1,0 +1,35 @@
+<view class='container container-all'>
+  <view class='status-box'>
+    <image class='img-info' src='https://icon-1252864111.cos.ap-shanghai.myqcloud.com/home.png'></image>
+    <view class='order-status'>订单提交成功</view>
+  </view>
+
+  <view class='span'></view>
+
+  <view class='comm-tab'>物品信息</view>
+  <view class='goods-box'>
+    <text class='goods-tab'>下单物品</text>
+    <text class='goods'>废报纸20斤~40斤</text>
+  </view>
+
+
+  <view class='comm-tab'>指定回收员</view>
+  <view class='recycler-box'>
+  
+  <text>冯宝宝</text>
+  <text class='tel'>18874153364</text>
+  <text>--</text>
+  <text class='call'>拨号</text>
+  </view>
+  <view class='span'></view>
+
+  <view class='comm-tab'>订单留言</view>
+
+  <view class='msg-content'>希望回收员在到小区门口时，提前打电话通知先马克下那些暗下决心阿信啊下看
+  </view>
+
+  <view class='bottom-box'>
+    <view class='check-detail'>查看详情</view>
+    <view class='back-home' bindtap='onBackToHome'>返回首页</view>
+  </view>
+</view>

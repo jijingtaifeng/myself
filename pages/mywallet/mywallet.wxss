@@ -1,0 +1,117 @@
+.out-money-box {
+  background-color: #f53;
+}
+
+.money-box {
+  height: 292rpx;
+  background-color: #f53;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20rpx;
+  border-bottom: solid 0.1px #fff;
+}
+
+.money {
+  font-size: 80rpx;
+  font-weight: 500;
+  color: #fff;
+  margin: 10rpx 0rpx;
+}
+
+.money::before {
+  content: "¥";
+  font-size: 60rpx;
+  font-weight: 500;
+  color: #fff;
+  margin: 10rpx 0rpx;
+}
+
+.curr-money {
+  padding: 3rpx 10rpx;
+  font-size: 28rpx;
+  color: #fff;
+  border-radius: 20rpx;
+  background-color: #ff2a00;
+}
+
+.money-detail-box {
+  color: #fff;
+  height: 182rpx;
+  background-color: #f53;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.com-money {
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 500;
+  margin: 6rpx 0rpx;
+}
+
+.com-money::before {
+  content: "¥";
+  font-size: 30rpx;
+  font-weight: 500;
+}
+
+.com-text {
+  padding: 3rpx 10rpx;
+  font-size: 28rpx;
+  color: #fff;
+  border-radius: 20rpx;
+  background-color: #ff2a00;
+}
+
+.vertical-line{
+  width: 1rpx;
+  height: 80rpx;
+  background-color: #ffffff;
+}
+
+/*列表项*/
+
+.list-box .item {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-left: 30rpx;
+  height: 100rpx;
+  border-bottom: 1px #e8e8e8 solid;
+  line-height: 100rpx;
+}
+
+/*箭头*/
+
+.list-box .item:after {
+  content: " ";
+  height: 15rpx;
+  width: 15rpx;
+  border-width: 2px 2px 0 0;
+  border-color: #ddd;
+  border-style: solid;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-top: -6px;
+  top: 50%;
+  right: 30rpx;
+}
+
+.list-box .item .hd {
+  width: 16px;
+  height: 16px;
+  padding-left: 10px;
+}
+
+.list-box .item .ft {
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  color: #262626;
+}

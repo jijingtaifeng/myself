@@ -1,0 +1,12 @@
+<!--地址管理-->
+<template name="titleheader">
+  <view class="order-status">
+    <view class="order-time">
+      <image src="{{'/imgs/toolbar/home@selected.png'}}" class="time-icon" />
+      <view class="time">2017.06.27 12:30</view>
+    </view>
+    <view class="status">订单已分配</view>
+  </view>
+</template>
+
+

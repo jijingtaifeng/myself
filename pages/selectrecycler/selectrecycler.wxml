@@ -1,0 +1,13 @@
+<view class='container container-all'>
+
+
+  <view class='recycler-box'>
+    <block wx:for="{{recyclerInfo}}">
+      <view data-id='{{index}}' class="{{index==currId?'recycler-itemed':'recycler-item'}}" bindtap='onSelectedRecycler'>  
+        {{item.name}}
+      </view>
+    </block>
+  </view>
+
+  <view class='bt-confirmed' bindtap='onConfirmed'>确定</view>
+</view>

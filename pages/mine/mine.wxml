@@ -1,0 +1,67 @@
+<!--logs.wxml-->
+<view class="container container-all">
+  <view>
+    <view class='header-box'>
+      <image class='header-icon' src='https://icon-1252864111.cos.ap-shanghai.myqcloud.com/%E5%BA%9F%E7%BA%B8%E6%9D%BF.png'></image>
+      <text class='name'>屌丝联盟俱乐部</text>
+    </view>
+    <!-- 账户 -->
+    <view class="account">
+      <navigator class="caption" url="../mywallet/mywallet" open-type="navigate" hover-class="none">
+        <view class="item">
+          <image class="itemicon" src='https://icon-1252864111.cos.ap-shanghai.myqcloud.com/wallet.png'></image>
+          <view class="caption">我的钱包</view>
+        </view>
+      </navigator>
+      <view class="item">
+       <image class="itemicon" src='https://icon-1252864111.cos.ap-shanghai.myqcloud.com/inviter.png'></image>
+        <view class="caption">已邀请人</view>
+      </view>
+      <navigator class="caption" url="../order/order" open-type="navigate" hover-class="none">
+        <view class="item">
+       <image class="itemicon" src='https://icon-1252864111.cos.ap-shanghai.myqcloud.com/scrapOrder.png'></image>
+          <view class="caption">废品订单</view>
+        </view>
+      </navigator>
+    </view>
+
+    <view class='span'></view>
+    
+    <view class="list-box">
+      <navigator class="caption" url="../address/addresslist/addresslist" open-type="navigate" hover-class="none">
+        <view class="item">
+          <text class="itemicon iconfont icon-yue"></text>
+          <view class="ft">回收地址</view>
+        </view>
+      </navigator>
+      <view class="item" bindtap="tapName">
+        <text class="itemicon iconfont icon-kefurexian"></text>
+        <view class="ft">现金奖励 </view>
+      </view>
+      <navigator class="caption" url="../address/newaddress/newaddress" open-type="navigate" hover-class="none">
+        <view class="item">
+          <text class="itemicon iconfont icon-guanyuwomen"></text>
+          <view class="ft">常见问题</view>
+        </view>
+      </navigator>
+
+      <navigator class="caption" url="../toastDemo/toast" open-type="navigate" hover-class="none">
+        <view class="item">
+          <text class="itemicon iconfont icon-xiugaimima"></text>
+          <view class="ft">关于断舍狸</view>
+        </view>
+      </navigator>
+     
+        <view class="item">
+          <text class="itemicon iconfont icon-xiugaimima"></text>
+          <view class="ft">客服热线</view>
+          <text class="tel" bindtap='onMakePhone'>{{telNumber}}</text>
+        </view>
+
+    </view>
+    <view class='span'></view>
+    <navigator class="caption" url="../phone/bindphone/bindphone" open-type="navigate" hover-class="none">
+      <view class="bind-tel">绑定手机</view>
+    </navigator>
+  </view>
+</view>

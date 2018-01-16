@@ -1,0 +1,90 @@
+/* pages/orderinfo/orderinfo.wxss */
+
+.status-box {
+  height: 260rpx;
+  margin: auto;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-info {
+  width: 110rpx;
+  height: 110rpx;
+}
+
+.order-status {
+  margin-top: 20rpx;
+  font-size: 34rpx;
+  color: #333;
+  text-align: center;
+}
+
+.comm-tab {
+  height: 80rpx;
+  font-size: 32rpx;
+  color: #333;
+  line-height: 80rpx;
+  margin: 0 30rpx;
+  border-bottom: solid 1rpx #e8e8e8;
+}
+.recycler-box{
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 30rpx;
+  font-size: 30rpx;
+}
+
+
+.tel{
+  margin-left: 16rpx;
+}
+.call{
+  position: fixed;
+  right: 30rpx;
+}
+
+.msg-content{
+   font-size: 30rpx;
+     padding: 30rpx 30rpx;
+}
+
+.goods-box{
+ font-size: 30rpx;
+ padding: 30rpx 30rpx 20rpx 30rpx
+}
+.goods-tab {
+  color: #999;
+}
+
+.goods {
+  margin-left: 24rpx;
+  color: #333;
+}
+
+
+.bottom-box {
+  display: flex;
+  height: 100rpx;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.check-detail {
+  flex: 1;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.back-home {
+  line-height: 100rpx;
+  flex: 1;
+  text-align: center;
+  font-size: 36rpx;
+  color: #fff;
+  background-color: #f53;
+}

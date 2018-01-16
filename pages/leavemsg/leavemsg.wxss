@@ -1,0 +1,68 @@
+/* pages/leavemsg/leavemsg.wxss */
+
+.msg-header {
+  margin: 30rpx;
+  color: #333;
+  font-size: 34rpx;
+  font-weight: normal;
+}
+
+.msg-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20rpx 30rpx;
+}
+
+.msg-item {
+  margin-bottom: 10rpx;
+  min-width: 140rpx;
+  min-height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 4px;
+  border: solid 1rpx #999;
+  text-align: center;
+  font-size: 26rpx;
+}
+
+.msg-itemed{
+  background-color: #f5f5f5;
+   margin-bottom: 10rpx;
+  min-width: 140rpx;
+  min-height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 26rpx;
+    border: solid 1rpx #f5f5f5;
+}
+
+.remark-info {
+  font-size: 30rpx;
+  height: 180rpx;
+  width: auto;
+  padding: 20rpx;
+  margin: 0 30rpx;
+  background-color: #f5f5f5;
+  border: solid 0.5px #ccc;
+}
+
+.bottom-box {
+  margin-top: 30rpx;
+  display: flex;
+  background-color: #f5f5f5;
+  justify-content: center;
+}
+
+.bt-confirmed {
+  line-height: 90rpx;
+  text-align: center;
+  width: 670rpx;
+  height: 90rpx;
+  border-radius: 50px;
+  background-color: #f53;
+  margin: 40rpx 0 2000rpx 0;
+  color: #fff;
+  font-size: 36rpx;
+}

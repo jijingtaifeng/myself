@@ -1,0 +1,95 @@
+<import src="../tpls/titleheader/titleheader.wxml" />
+<view class="stv-container">
+  <view class="tab-bar">
+    <view wx:for="{{tabs}}" wx:key="unique" data-index="{{index}}" bindtap="handlerTabTap" class="tab {{activeTab==index?'tab-active':''}}" style="width: {{stv.windowWidth/tabs.length}}px">
+      <text>{{item}}</text>
+    </view>
+    <view style="width: {{stv.lineWidth}}px; left: {{stv.offset/tabs.length+20}}px" class="under-line {{!stv.tStart? 'withAnimate': ''}}"></view>
+  </view>
+  <view class="scroll-view">
+    <view bindtouchstart="handlerStart" catchtouchmove="handlerMove" bindtouchcancel="handlerCancel" bindtouchend="handlerEnd" class="scroll-view-wrapper {{!stv.tStart? 'withAnimate': ''}}" style="left: -{{stv.offset}}px">
+
+      <view style="width: {{stv.windowWidth}}px;" wx:for="{{tabs}}" wx:key="unique" class="one-scene">
+
+
+        <scroll-view style="height:100%" scroll-y hidden="{{index==0 ? '' : true}}">
+
+          <view class="order-box">
+            <view class='span'></view>
+            
+            <view class="order-status">
+              <view class="order-time">
+                <image src="https://icon-1252864111.cos.ap-shanghai.myqcloud.com/order_time.png" class="time-icon" />
+                <view class="time">2017.06.27 12:30</view>
+              </view>
+              <view class="status">订单已提交</view>
+            </view>
+            <view class='goods-list'>下单物品：废报纸 20斤~40斤</view>
+
+            <view class='order-opr'>
+              <text class='check-detail' bindtap='onCheckDetail'>查看详情</text>
+              <text class='cancel-order' bindtap='onCancelOrder'>取消订单</text>
+              <text class='cancel-order modfiy-order'>修改订单</text>
+            </view>
+          </view>
+
+
+        </scroll-view>
+
+
+        <scroll-view style="height:100%" scroll-y hidden="{{index==1 ? '' : true}}">
+
+          <view class="order-box">
+            <view class='span'></view>
+
+            <view class="order-status">
+              <view class="order-time">
+                <image src="https://icon-1252864111.cos.ap-shanghai.myqcloud.com/order_time.png" class="time-icon" />
+                <view class="time">2017.06.27 12:30</view>
+              </view>
+              <view class="status">订单已分配</view>
+            </view>
+
+
+            <view class='goods-list'>下单物品：废报纸 20斤~40斤</view>
+
+            <view class='order-opr'>
+              <text class='check-detail'>查看详情</text>
+              <text class='cancel-order' style=' visibility: hidden'>取消订单</text>
+              <text class=' cancel-order modfiy-order'>联系客服</text>
+
+            </view>
+
+
+          </view>
+        </scroll-view>
+        <scroll-view style="height:100%" scroll-y hidden="{{index==2 ? '' : true}}">
+
+          <view class="order-box">
+            <view class='span'></view>
+            <view class="order-status">
+              <view class="order-time">
+                <image src="https://icon-1252864111.cos.ap-shanghai.myqcloud.com/order_time.png" class="time-icon" />
+                <view class="time">2017.06.27 12:30</view>
+              </view>
+              <view class="status">订单已完成</view>
+            </view>
+            <view class='goods-list'>下单物品：废报纸 20斤~40斤</view>
+
+            <view class='order-opr'>
+              <text class='check-detail'>查看详情</text>
+              <text class='cancel-order' style=' visibility: hidden'>取消订单</text>
+              <text class=' cancel-order modfiy-order'>删除订单</text>
+
+            </view>
+
+
+          </view>
+        </scroll-view>
+
+      </view>
+
+
+    </view>
+  </view>
+</view>

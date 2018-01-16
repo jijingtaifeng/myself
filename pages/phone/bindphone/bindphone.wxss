@@ -1,0 +1,81 @@
+page {
+  height: 100%;
+}
+
+.container-all {
+  background-color: #f5f5f5;
+}
+
+.span {
+  height: 1rpx;
+  background-color: #f5f5f5;
+}
+
+.box {
+  margin: 30rpx;
+  background-color: #fff;
+}
+
+.phone-box {
+  font-size: 50rpx;
+  color: #333;
+  margin: 0 60rpx;
+}
+
+.phone {
+  padding-top: 60rpx;
+  padding-bottom: 30rpx;
+}
+
+.input-box {
+  height: 100rpx;
+  font-size: 40rpx;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 0.5px #d9d9d9;
+  align-items: center;
+}
+
+.phone-text {
+  margin-right: 40rpx;
+}
+
+.phone-input {
+  font-weight: 500;
+}
+
+.valite-code {
+  padding: 9rpx 10rpx;
+  position: absolute;
+  right: 90rpx;
+  border-radius: 4px;
+  border: solid 0.5px #ccc;
+  font-size: 32rpx;
+  min-width: 160rpx;
+  color: #ccc;
+    text-align: center;
+}
+
+.valite-coded {
+  text-align: center;
+   min-width: 160rpx;
+  padding: 9rpx 10rpx;
+  position: absolute;
+  right: 90rpx;
+  border-radius: 4px;
+  border: solid 0.5px #ff5533;
+  font-size: 32rpx;
+  color: #ff5533;
+}
+
+.bt-confirm {
+  margin: 60rpx 20rpx 40rpx 20rpx;
+  height: 90rpx;
+  border-radius: 100rpx;
+  background-color: #f53;
+  text-align: center;
+  line-height: 90rpx;
+  color: #fff;
+  font-size: 32rpx;
+}

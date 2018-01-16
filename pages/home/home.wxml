@@ -1,0 +1,34 @@
+<view class='container container-all'>
+
+  <swiper indicator-dots="true" autoplay="true" class="swiper">
+    <block wx:for="{{bannerArr}}">
+      <swiper-item class="banner-item" bindtap="onProductsItemTap" data-id="{{item.key_word}}">
+        <image class="item-image" src="{{item.imgurl}}" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='main-container'>
+    <view class='main-container-item'>
+      <block wx:for="{{leftData}}">
+        <view class='big-item' bindtap="onItemTap" data-id="{{item.id}}" data-name="{{item.title}}">
+          <image class="products-image" src='{{item.imgurl}}'></image>
+          <view class="info-text">{{item.title}}</view>
+        </view>
+      </block>
+    </view>
+    <view class='main-container-item'>
+      <block wx:for="{{rightData}}">
+        <view class='samll-item' bindtap="onItemTap" data-id="{{item.id}}" data-name="{{item.title}}">
+          <image class="products-image" src='{{item.imgurl}}'></image>
+          <view class="info-text">{{item.title}}</view>
+        </view>
+      </block>
+    </view>
+
+  </view>
+
+  <view class='bottom-text'>
+    ———— 断舍狸 ･ 让闲置回归价值 ————
+  </view>
+</view>

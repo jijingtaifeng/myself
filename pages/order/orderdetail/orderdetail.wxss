@@ -1,0 +1,118 @@
+/* pages/orderinfo/orderinfo.wxss */
+
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.container-all {
+  background-color: #f5f5f5;
+}
+
+.out-box {
+  background-color: #fff;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.comm-tab {
+  background-color: #fff;
+  height: 80rpx;
+  color: #333;
+  line-height: 80rpx;
+  margin-left: 30rpx;
+  border-bottom: solid 1rpx #e8e8e8;
+}
+
+.order-status {
+  color: #f53;
+  position: absolute;
+  right: 30rpx;
+  top: 40rpx;
+}
+
+.order-num-box {
+  margin: 30rpx 30rpx 10rpx 30rpx;
+}
+
+.order-num {
+  color: #999;
+}
+
+.order-time {
+  margin-left: 24rpx;
+}
+
+.recycler-box {
+  background-color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 30rpx;
+  font-size: 30rpx;
+}
+
+.tel {
+  margin-left: 16rpx;
+}
+
+.call {
+  position: absolute;
+  right: 30rpx;
+}
+
+.tel-icon {
+  width: 42rpx;
+  height: 42rpx;
+  position: absolute;
+  right: 106rpx;
+}
+
+.msg-content {
+  font-size: 30rpx;
+  padding: 30rpx 30rpx;
+}
+
+.goods-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  font-size: 30rpx;
+  padding: 30rpx 30rpx 20rpx 30rpx;
+}
+
+.goods-tab {
+  color: #999;
+}
+
+.goods-list {
+  margin-left: 50rpx;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.goods {
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.order-status-box {
+  margin: 30rpx 30rpx 0 30rpx;
+}
+
+.status-text {
+  font-size: 32rpx;
+  color: #999;
+}
+
+.before-text {
+  width: 14rpx;
+  height: 14rpx;
+  border-radius: 7rpx;
+  background-color: #000;
+}
+
+.status-time {
+  margin-left: 30rpx;
+}

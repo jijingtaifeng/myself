@@ -1,0 +1,109 @@
+page {
+  height: 100%;
+}
+.container-all {
+  background-color: #f5f5f5;
+}
+.header-box {
+  height: 160rpx;
+  background-color: #f5f5f5;
+}
+
+.header-icon {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 30rpx;
+  border-radius: 50rpx;
+}
+
+.name {
+  font-size: 36rpx;
+  color: #222;
+  position: absolute;
+  top: 55rpx;
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: white;
+}
+
+/*每一项*/
+
+.account .item {
+  height: 88.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemicon {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 10rpx;
+}
+
+.caption {
+  font-size: 30rpx;
+  color: #262626;
+}
+
+/*列表项*/
+
+.list-box .item {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-left: 30rpx;
+  height: 100rpx;
+  border-bottom: 1px #e8e8e8 solid;
+  line-height: 100rpx;
+}
+
+/*箭头*/
+
+.list-box .item:after {
+  content: " ";
+  height: 15rpx;
+  width: 15rpx;
+  border-width: 1px 1px 0 0;
+  border-color: #ddd;
+  border-style: solid;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-top: -6px;
+  top: 50%;
+  right: 30rpx;
+}
+
+.list-box .item .hd {
+  width: 16px;
+  height: 16px;
+  padding-left: 20rpx;
+}
+
+.list-box .item .ft {
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  color: #262626;
+}
+
+.tel {
+  font-size: 30rpx;
+  color: #999;
+  margin-left: 20rpx;
+}
+
+.bind-tel {
+  background-color: #fff;
+  color: #f53;
+  text-align: center;
+  font-size: 34rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}

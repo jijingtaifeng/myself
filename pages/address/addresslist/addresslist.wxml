@@ -1,0 +1,18 @@
+<view class='container container-all'>
+
+
+  <block wx:for="{{address}}">
+    <view class='item-box'>
+      <view class='box-header'>
+        <text>{{item.name}}</text>
+        <text class='tel'>{{item.phone}}</text>
+      </view>
+      <view class='detail-address'>{{item.detailaddress}}</view>
+      <view class='box-bottom'>
+        <text class='item-del' bindtap='onDelAddress'>删除</text>
+        <text class='item-del item-edit' bindtap='onEditAddress'>编辑</text>
+      </view>
+    </view>
+  </block>
+  <view class='new-address' bindtap='onNewAddress'>新增回收地址</view>
+</view>

@@ -1,0 +1,27 @@
+<import src="../../../component/dialog/dialog.wxml" />
+<view class="container container-all">
+  <view>
+    <template is="doubleDialog" data="{{ ..._toast_ }}" />
+  </view>
+  <view class='span'></view>
+  <view class='box'>
+    <view class='phone-box'>
+      <view class='phone'>手机号</view>
+      <view class='input-box'>
+        <text class='phone-text'>+86</text>
+        <input class="phone-input" placeholder='请输入绑定手机号' type='number' maxlength='11' bindinput="bindInputBlur"></input>
+      </view>
+    </view>
+    <view class='phone-box'>
+      <view class='phone'>验证码</view>
+      <view class='input-box'>
+        <input class="phone-input" placeholder='请输入验证码' type='number' maxlength='6'></input>
+        <view class="{{btStatus?'valite-coded':'valite-code'}}" bindtap='onGetCode'>{{codeStatus}}</view>
+      </view>
+    </view>
+
+    <view class='bt-confirm' bindtap='openToastPannel'>提交</view>
+    <view class='span'></view>
+  </view>
+
+</view>

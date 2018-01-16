@@ -1,0 +1,50 @@
+<view class='container container-all'>
+  <view class='span'></view>
+  <view class='address'>
+    <view class='address-box'>
+      <text class='recycle-address'>回收地址</text>
+      <text class='modfiy-address' bindtap='onModfiyAddress'>修改地址</text>
+    </view>
+
+    <view class='address-info'>
+      <text>谢老板</text>
+      <text class='tel'>18016064185</text>
+      <view class='detail-address'>上海市某某区靖江新乡全球位花园小区12号楼31层3104室</view>
+    </view>
+  </view>
+  <view class='span'></view>
+  <view class='recycle-info'>
+    <text>下单物品：</text>
+    <text class='tel'>废报纸</text>
+  </view>
+
+  <view class='weight-text'>预计物品重量</view>
+  <view class='weight-box'>
+    <block wx:for="{{weightInfo}}">
+      <view data-id='{{index}}' class="{{index==id?'weight-itemed':'weight-item'}}" bindtap='onSelectedWeight'>
+        {{item.name}}
+      </view>
+    </block>
+  </view>
+  <view class='span'></view>
+  <view class='recycler-box' bindtap='onSelectRecycle'>
+    <text class='recycler'>指定回收员</text>
+    <text class='recycler-info'>{{recycler}}</text>
+    <text class='modfiy-address' wx:if="{{recycler}}">修改回收员</text>
+    <text class='modfiy-address' wx:else>选择回收员</text>
+  </view>
+  <view class='span'></view>
+
+  <view class='recycler-box' bindtap='onLeaveMsg'>
+    <text class='recycler'>订单留言</text>
+
+
+    <text class='modfiy-address' wx:if="{{remarked}}">{{remarked}}</text>
+    <text class='modfiy-address' wx:else> 给回收员留句话</text>
+  </view>
+  <view class='bottom-box'>
+
+    <view class='bt-place-order' bindtap='onPlaceOrder'>立即下单</view>
+
+  </view>
+</view>

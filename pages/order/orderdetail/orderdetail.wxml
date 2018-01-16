@@ -1,0 +1,72 @@
+<view class='container container-all'>
+  <view class='out-box'>
+    <view class='span'></view>
+    <view class='comm-tab'>订单信息</view>
+    <text class='order-status'>订单已完成</text>
+    <view class='order-num-box'>
+      <text class='order-num'>订单编号</text>
+      <text class='order-time'>12345678987654321</text>
+    </view>
+    <view class='.order-num-box'>
+      <text class='order-num'>下单时间</text>
+      <text class='order-time'>2017.06.28 17:20</text>
+    </view>
+
+    <view class='span'></view>
+    <view class='comm-tab'>指定回收员</view>
+    <view class='recycler-box'>
+      <text>冯宝宝</text>
+      <text class='tel'>18874153364</text>
+      <image src="{{'/imgs/toolbar/home@selected.png'}}" class="tel-icon" />
+      <text class='call'>拨号</text>
+    </view>
+
+    <view class='span'></view>
+    <view class='comm-tab'>物品信息</view>
+    <view class='span-line'></view>
+    <view class='goods-box'>
+      <text class='goods-tab'>下单物品</text>
+      <view class='goods-list'>
+        <text class='goods'>废报纸20斤~40斤</text>
+        <text class='goods'>废报纸20斤~40斤</text>
+      </view>
+    </view>
+
+
+    <view class='recycler-box'>
+      <text class='order-num'>总回收金额</text>
+      <text class='order-time'>128元</text>
+    </view>
+
+    <view class='goods-box'>
+      <text class='goods-tab'>回收地址</text>
+      <view class='goods-list'>
+        <text class='goods'>蟹老板 18874193762</text>
+        <text class='goods'>上海市某某区靖江新乡花园小区12号楼31层3104室</text>
+      </view>
+    </view>
+    <view class='span'></view>
+
+    <view class='comm-tab'>订单留言</view>
+
+    <view class='msg-content'>希望回收员在到小区门口时，提前打电话通知先马克下那些暗下决心阿信啊下看
+    </view>
+    <view class='comm-tab'>订单状态</view>
+
+    <view class='order-status-box'>
+      <text class='status-text'>订单完成</text>
+      <text class='status-time'>2017.06.23 16:30</text>
+    </view>
+    <view class='order-status-box'>
+      <text class='status-text'>订单完成</text>
+      <text class='status-time'>2017.06.23 16:30</text>
+    </view>
+    <view class='order-status-box'>
+    <text class='before-text'></text>
+      <text class='status-text'>订单完成</text>
+      <text class='status-time'>2017.06.23 16:30</text>
+    </view>
+  </view>
+
+
+</view>
